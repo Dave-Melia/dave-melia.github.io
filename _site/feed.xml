@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Dave Melia</title>
+		<description>Daaaaa</description>
+		<link>/</link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>New Blog!</title>
+				<description>&lt;p&gt;Hey!  Welcome to my new blog.  I have created this as a place to log my ‘&lt;a href=&quot;http://100daysofcode.com/&quot;&gt;#100daysofcode&lt;/a&gt; challenge’ progress, and to use as a point of reference for the stuff I’m likely to forget.&lt;/p&gt;
+</description>
+				<pubDate>Mon, 23 Apr 2018 00:00:00 +0100</pubDate>
+				<link>/general/2018/04/23/new-blog.html</link>
+				<guid isPermaLink="true">/general/2018/04/23/new-blog.html</guid>
+			</item>
+		
+	</channel>
+</rss>

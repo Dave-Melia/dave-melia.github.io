@@ -1,38 +1,39 @@
-title: Hello, world! I'm Dave
-description: > # this means to ignore newlines until "baseurl:"
-  A blog to keep a record of my #100daysofcode challenge
-permalink: ':title/'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-# Author Settings
-author: Dave # add your name
-author-img: dave.jpg # add your photo
-about-author:
-  I am your every day nerd with a passion for web development.
-  This blog is a way for me to log my &#35;100daysofcode challenge
-  and as a point of reference for the things I am likely to forget. # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: dave-melia # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
-
-# Disqus
-discus-identifier: # add your discus identifier
-
-# Tracker
-analytics: # Google Analytics
-
-# Build Settings
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
 markdown: kramdown
+disqus:
+google_analytics:
+title: Dave Melia
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: 
+
+description: Daaaaa
+author:
+  name: Dave Melia
+  email: davemelia21@gmail.com
+  github: dave-melia
+  twitter: RetroSpock
+  linkedin:
+  bio: The sound of the rain needs no translation.
+  email_md5: 726351295ec82e145928582f595aa3aa
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
 plugins:
-  - jekyll-sitemap
   - jekyll-paginate
-  - jemoji
-
-paginate: 8
-paginate_path: "/page/:num"
-
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
