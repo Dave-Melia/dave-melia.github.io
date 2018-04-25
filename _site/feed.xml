@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-25T02:39:04+01:00</updated><id>http://localhost:4000/</id><title type="html">Dave Melia</title><subtitle>The sound of the rain needs no translation.</subtitle><entry><title type="html">Day 4</title><link href="http://localhost:4000/day-four/" rel="alternate" type="text/html" title="Day 4" /><published>2018-04-24T00:00:00+01:00</published><updated>2018-04-24T00:00:00+01:00</updated><id>http://localhost:4000/day-four</id><content type="html" xml:base="http://localhost:4000/day-four/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+&lt;p&gt;I have spent some time learning the basics of async, call stack and event loop.&lt;/p&gt;
+
+&lt;p&gt;I have started to make a weather app using the Google Maps API, and I have learned how to beautify JSON callbacks (see below).&lt;/p&gt;
+
+&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+
+&lt;p&gt;async and call stack are quite intimidating at the moment and whilst it does make sense, I don’t think I understand it enough.  I’m really excited to progress with the weather app and use the Google Maps API.&lt;/p&gt;
+
+&lt;h2 id=&quot;code-snippets&quot;&gt;Code Snippets&lt;/h2&gt;
+
+&lt;h4 id=&quot;pretty-print-json-callbacks&quot;&gt;Pretty print JSON callbacks&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This works by adding spaces (2 in this case) to the string&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https://maps.googleapis.com/maps/api/geocode/json?address=1301%20lombard%20street%20philadelphia'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stringify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;undefined&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="async" /><category term="call stack" /><category term="event loop" /><category term="json" /><summary type="html">Today’s Progress I have spent some time learning the basics of async, call stack and event loop.</summary></entry><entry><title type="html">Day 3</title><link href="http://localhost:4000/day-three/" rel="alternate" type="text/html" title="Day 3" /><published>2018-04-23T00:00:00+01:00</published><updated>2018-04-23T00:00:00+01:00</updated><id>http://localhost:4000/day-three</id><content type="html" xml:base="http://localhost:4000/day-three/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+
+&lt;p&gt;I have refined my notes app and I have learned some of the methods of ‘yargs’.  I have also managed to set up and configure this blog, however I had to set the post date of ‘New Blog!’ to the 20th to keep things in order.&lt;/p&gt;
+
+&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+
+&lt;p&gt;I am finding node packages a little intimidating at the moment.  I am also failing to see how I’m supposed to know that a package exists.  For example, if I didn’t learn of the existence of yargs through a video I watched, how would I know about it and how would I know it’s something I needed?&lt;/p&gt;
+
+&lt;p&gt;Time will tell, I presume!&lt;/p&gt;
+
+&lt;h3 id=&quot;links&quot;&gt;Link(s)&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.npmjs.com/package/yargs&quot;&gt;yargs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/yargs/yargs/blob/HEAD/docs/api.md#commandcmd-desc-module&quot;&gt;yargs .command()&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="yargs" /><category term="node" /><summary type="html">Today’s Progress</summary></entry><entry><title type="html">Day 2</title><link href="http://localhost:4000/day-two/" rel="alternate" type="text/html" title="Day 2" /><published>2018-04-22T00:00:00+01:00</published><updated>2018-04-22T00:00:00+01:00</updated><id>http://localhost:4000/day-two</id><content type="html" xml:base="http://localhost:4000/day-two/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+
+&lt;p&gt;Completed the NodeJS notes app.  Functionality includes adding, removing, viewing and listing notes.&lt;/p&gt;
+
+&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+
+&lt;p&gt;I have finished the NodeJS notes app and I have learned about using the NodeJS console and Chrome Dev Tools to debug the code.  Feeling accomplished, but it’s 4:31am and I am exhausted!&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><summary type="html">Today’s Progress</summary></entry><entry><title type="html">Day 1</title><link href="http://localhost:4000/day-one/" rel="alternate" type="text/html" title="Day 1" /><published>2018-04-21T00:00:00+01:00</published><updated>2018-04-21T00:00:00+01:00</updated><id>http://localhost:4000/day-one</id><content type="html" xml:base="http://localhost:4000/day-one/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+&lt;p&gt;I’m getting to grips with Node.JS&lt;/p&gt;
+
+&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;I am awful at UI Design but I love backend work, so I am taking an interest in Node.JS.  Currently going through some practical tutorials.&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><summary type="html">Today’s Progress I’m getting to grips with Node.JS</summary></entry><entry><title type="html">New Blog!</title><link href="http://localhost:4000/new-blog/" rel="alternate" type="text/html" title="New Blog!" /><published>2018-04-20T00:00:00+01:00</published><updated>2018-04-20T00:00:00+01:00</updated><id>http://localhost:4000/new-blog</id><content type="html" xml:base="http://localhost:4000/new-blog/">&lt;p&gt;Hey!  Welcome to my new blog.  I have created this as a place to log my ‘&lt;a href=&quot;http://100daysofcode.com/&quot;&gt;#100daysofcode&lt;/a&gt; challenge’ progress, and to use as a point of reference for the stuff I’m likely to forget.&lt;/p&gt;</content><author><name></name></author><category term="new" /><category term="blog" /><summary type="html">Hey! Welcome to my new blog. I have created this as a place to log my ‘#100daysofcode challenge’ progress, and to use as a point of reference for the stuff I’m likely to forget.</summary></entry></feed>
