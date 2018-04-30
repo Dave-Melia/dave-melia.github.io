@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Day 7 – Dave Melia – The sound of the rain needs no translation.</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Today’s Progress
+I have done some algorithm scripting on FreeCodeCamp.
+
+" />
+    <meta property="og:description" content="Today’s Progress
+I have done some algorithm scripting on FreeCodeCamp.
+
+" />
+    
+    <meta name="author" content="Dave Melia" />
+
+    
+    <meta property="og:title" content="Day 7" />
+    <meta property="twitter:title" content="Day 7" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Dave Melia - The sound of the rain needs no translation." href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="https://avatars2.githubusercontent.com/u/4519095?s=460&v=4" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Dave Melia</a></h1>
+            <p class="site-description">The sound of the rain needs no translation.</p>
+          </div>
+
+          <nav>
+            <a href="/">Blog</a>
+            <!--<a href="/about">About</a>-->
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>Day 7</h1>
+
+  <div class="entry">
+    <h2 id="todays-progress">Today’s Progress</h2>
+<p>I have done some algorithm scripting on FreeCodeCamp.</p>
+
+<h2 id="thoughts">Thoughts</h2>
+<p>Algorithm scripting isn’t very enjoyable, but I’d imagine it’s like having to eat your broccoli before you eat your dessert or having to limber up before going for a run… You want to get to the good stuff, but you need to do the boring stuff first.</p>
+
+<p>After a couple of hours attempting several algorithms, I realise I’m awful at solving them without having to Google for help (partly solutions).  I wonder if it’ll ‘click’ or if my brain just doesn’t function that way.</p>
+
+<p>I also need to spend time going over some regex as I have been avoiding it for years; even when I worked as a Linux Sysadmin I couldn’t conjure up the motivation to learn it.</p>
+
+<h2 id="code-snippets">Code Snippets</h2>
+
+<h4 id="title-case-a-string-of-words">Title Case A String of Words</h4>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">toTitleCase</span><span class="p">(</span><span class="nx">str</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="nx">str</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/</span><span class="se">\w\S</span><span class="sr">*/g</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">txt</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">txt</span><span class="p">.</span><span class="nx">charAt</span><span class="p">(</span><span class="mi">0</span><span class="p">).</span><span class="nx">toUpperCase</span><span class="p">()</span> <span class="o">+</span> <span class="nx">txt</span><span class="p">.</span><span class="nx">substr</span><span class="p">(</span><span class="mi">1</span><span class="p">).</span><span class="nx">toLowerCase</span><span class="p">();</span>
+  <span class="p">});</span>
+<span class="p">}</span>
+
+<span class="nx">toTitleCase</span><span class="p">(</span><span class="s1">'heLLO, DAVE'</span><span class="p">);</span>
+
+<span class="c1">// returns: Hello, Dave</span>
+</code></pre></div></div>
+
+<h2 id="helpful-links">Helpful Links</h2>
+
+<p><a href="https://www.w3schools.com/jsref/jsref_obj_regexp.asp">Regex tutorial on W3Schools</a></p>
+
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt">charAt()</a></p>
+
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr">substr()</a></p>
+
+  </div>
+
+  <div class="date">
+    Written on April 27, 2018
+  </div>
+
+  
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+
+
+
+<a href="https://github.com/dave-melia"><i class="svg-icon github"></i></a>
+
+
+
+
+<a href="https://www.twitter.com/Barnards__Loop"><i class="svg-icon twitter"></i></a>
+
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-118124017-1', 'auto');
+		ga('send', 'pageview', {
+		  'page': '/day-007/',
+		  'title': 'Day 7'
+		});
+	</script>
+	<!-- End Google Analytics -->
+
+
+  </body>
+</html>

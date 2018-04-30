@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Day 8 – Dave Melia – The sound of the rain needs no translation.</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Today’s Progress
+I have progressed further with the Node.JS weather app.  I even rebuilt it from scratch to reinforce what I had learned.
+
+" />
+    <meta property="og:description" content="Today’s Progress
+I have progressed further with the Node.JS weather app.  I even rebuilt it from scratch to reinforce what I had learned.
+
+" />
+    
+    <meta name="author" content="Dave Melia" />
+
+    
+    <meta property="og:title" content="Day 8" />
+    <meta property="twitter:title" content="Day 8" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Dave Melia - The sound of the rain needs no translation." href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="https://avatars2.githubusercontent.com/u/4519095?s=460&v=4" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Dave Melia</a></h1>
+            <p class="site-description">The sound of the rain needs no translation.</p>
+          </div>
+
+          <nav>
+            <a href="/">Blog</a>
+            <!--<a href="/about">About</a>-->
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>Day 8</h1>
+
+  <div class="entry">
+    <h2 id="todays-progress">Today’s Progress</h2>
+<p>I have progressed further with the Node.JS weather app.  I even rebuilt it from scratch to reinforce what I had learned.</p>
+
+<h2 id="thoughts">Thoughts</h2>
+<p>I was beginning to feel overwhelmed with what I had learned regarding Node.JS, and I felt like I wasn’t getting it and it wasn’t very enjoyable.  As per <a href="https://twitter.com/RonJonBraun/status/989922649789861889">@RonJonBraun’s tweet</a> I decided to rewrite the weather app from scratch, without referring back to the code and without watching the tutorial for help.</p>
+
+<p>At first, I did feel like I was lost, and I’ll admit I did cheat by peeking at my previous code to figure out how to use the node <a href="https://www.npmjs.com/package/request">request</a> package or how to set up the methods on the <a href="https://www.npmjs.com/package/yargs">yargs</a> package.</p>
+
+<p>I got the flow of things but when I got to calling geocodeAddress(), I recall not understanding how to use the callback() function.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">geocode</span><span class="p">.</span><span class="nx">geocodeAddress</span><span class="p">(</span><span class="nx">argv</span><span class="p">.</span><span class="nx">address</span><span class="p">,</span> <span class="p">(</span><span class="nx">errorMessage</span><span class="p">,</span> <span class="nx">results</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">errorMessage</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">errorMessage</span><span class="p">);</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">results</span><span class="p">.</span><span class="nx">address</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Where the heck does errorMessage and results come from?
+How does it differentiate between the two?</p>
+
+<p>The answer, as I discovered, was this:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">callback</span><span class="p">(</span><span class="s1">'Unable to connect to Google Servers'</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">body</span><span class="p">.</span><span class="nx">status</span> <span class="o">===</span> <span class="s1">'ZERO_RESULTS'</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">callback</span><span class="p">(</span><span class="s1">'Unable to find that address'</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">body</span><span class="p">.</span><span class="nx">status</span> <span class="o">===</span> <span class="s1">'OK'</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">callback</span><span class="p">(</span><span class="kc">undefined</span><span class="p">,</span> <span class="p">{</span>
+    <span class="na">address</span><span class="p">:</span> <span class="nx">body</span><span class="p">.</span><span class="nx">results</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">formatted_address</span><span class="p">,</span>
+    <span class="na">latitude</span><span class="p">:</span> <span class="nx">body</span><span class="p">.</span><span class="nx">results</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">geometry</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nx">lat</span><span class="p">,</span>
+    <span class="na">longitude</span><span class="p">:</span> <span class="nx">body</span><span class="p">.</span><span class="nx">results</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">geometry</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nx">lng</span>
+  <span class="p">});</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Thinking of the callback() arguments in the previous snippet, the first argument was ‘errorMessage’.  In this case, ‘errorMessage’ would be ‘Unable to connect to Google Servers’ or ‘Unable to find that address’, completely omitting the second argument.</p>
+
+<p>‘results’ would be, callback(‘undefined’, Object), declaring ‘errorMessage’ as undefined and passing in the address, longitude, and latitude into the second argument as an object.</p>
+
+  </div>
+
+  <div class="date">
+    Written on April 28, 2018
+  </div>
+
+  
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+
+
+
+<a href="https://github.com/dave-melia"><i class="svg-icon github"></i></a>
+
+
+
+
+<a href="https://www.twitter.com/Barnards__Loop"><i class="svg-icon twitter"></i></a>
+
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-118124017-1', 'auto');
+		ga('send', 'pageview', {
+		  'page': '/day-008/',
+		  'title': 'Day 8'
+		});
+	</script>
+	<!-- End Google Analytics -->
+
+
+  </body>
+</html>
