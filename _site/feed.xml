@@ -1,8 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-02T05:49:06+01:00</updated><id>http://localhost:4000/</id><title type="html">Dave Melia</title><subtitle>The sound of the rain needs no translation.</subtitle><entry><title type="html">Day 12</title><link href="http://localhost:4000/day-012/" rel="alternate" type="text/html" title="Day 12" /><published>2018-05-02T00:00:00+01:00</published><updated>2018-05-02T00:00:00+01:00</updated><id>http://localhost:4000/day-012</id><content type="html" xml:base="http://localhost:4000/day-012/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-03T06:21:56+01:00</updated><id>http://localhost:4000/</id><title type="html">Dave Melia</title><subtitle>The sound of the rain needs no translation.</subtitle><entry><title type="html">Day 13</title><link href="http://localhost:4000/day-013/" rel="alternate" type="text/html" title="Day 13" /><published>2018-05-03T00:00:00+01:00</published><updated>2018-05-03T00:00:00+01:00</updated><id>http://localhost:4000/day-013</id><content type="html" xml:base="http://localhost:4000/day-013/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+&lt;p&gt;I have learned more about &lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;, and I attempted the #Javascript30 challenge but I didn’t take to it.  I have also brushed upon testing using &lt;a href=&quot;https://mochajs.org&quot;&gt;Mocha&lt;/a&gt;, but I will look more into it tomorrow.&lt;/p&gt;
+
+&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;I am a little disappointed with myself this evening, as I began to lose interest/motivation to proceed.  I did manage to get my hour in, and I attempted to do the #Javascript30 challenge, but I didn’t take to the structure of the first video so I stopped and didn’t commit to the challenge.&lt;/p&gt;
+
+&lt;p&gt;I did start to learn about &lt;a href=&quot;https://mochajs.org&quot;&gt;Mocha&lt;/a&gt;, which I must admit has piqued my interest again, and I am excited to get back to it tomorrow!&lt;/p&gt;
+
+&lt;p&gt;I owe my thanks to the kind people of Twitter for their kind words of encouragement.&lt;/p&gt;
+
+&lt;h2 id=&quot;useful-links&quot;&gt;Useful Links&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mochajs.org&quot;&gt;Mocha&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="express" /><category term="heroku" /><category term="github" /><category term="git" /><category term="mocha" /><category term="testing" /><summary type="html">Today’s Progress I have learned more about Express, and I attempted the #Javascript30 challenge but I didn’t take to it. I have also brushed upon testing using Mocha, but I will look more into it tomorrow.</summary></entry><entry><title type="html">Day 12</title><link href="http://localhost:4000/day-012/" rel="alternate" type="text/html" title="Day 12" /><published>2018-05-02T00:00:00+01:00</published><updated>2018-05-02T00:00:00+01:00</updated><id>http://localhost:4000/day-012</id><content type="html" xml:base="http://localhost:4000/day-012/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
 &lt;p&gt;Today I have learned about &lt;a href=&quot;https://expressjs.com/en/guide/using-middleware.html&quot;&gt;Express Middlewhere&lt;/a&gt;, uploaded an app to &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;, and deployed it to &lt;a href=&quot;https://heroku.com/&quot;&gt;Heroku&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
-&lt;p&gt;Well, as of today I am officially at the point where I usually give up.  My brain is fried, I am getting flustered and I’m feeling overwhelmed.&lt;/p&gt;
+&lt;p&gt;Well, as of today I am at the point where I usually give up.  My brain is fried, I am getting flustered and I’m feeling overwhelmed.&lt;/p&gt;
 
 &lt;p&gt;Following along with the course, it makes sense but when I attempt to make a dummy project to go over what I have learned, I am at a complete loss.&lt;/p&gt;
 
@@ -10,7 +23,7 @@
 
 &lt;p&gt;It’s very overwhelming because I can’t just focus on one thing until I master it, each thing requires the next thing.&lt;/p&gt;
 
-&lt;p&gt;However, I am doing the #100DaysofCode challenge and therefore I am going to suck it up, and power through!&lt;/p&gt;
+&lt;p&gt;However, I am doing the &lt;a href=&quot;http://100daysofcode.com/&quot;&gt;#100DaysofCode&lt;/a&gt; challenge and therefore I am going to suck it up, and power through!&lt;/p&gt;
 
 &lt;h2 id=&quot;useful-links&quot;&gt;Useful Links&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;&lt;/p&gt;
@@ -154,19 +167,4 @@ I have also set in place some callback error handling.&lt;/p&gt;
 &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stringify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;undefined&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="async" /><category term="call stack" /><category term="event loop" /><category term="json" /><summary type="html">Today’s Progress I have spent some time learning the basics of async, call stack and event loop.</summary></entry><entry><title type="html">Day 3</title><link href="http://localhost:4000/day-003/" rel="alternate" type="text/html" title="Day 3" /><published>2018-04-23T00:00:00+01:00</published><updated>2018-04-23T00:00:00+01:00</updated><id>http://localhost:4000/day-003</id><content type="html" xml:base="http://localhost:4000/day-003/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
-&lt;p&gt;I have refined my notes app and I have learned some of the methods of ‘yargs’.&lt;/p&gt;
-
-&lt;p&gt;I have also managed to set up and configure this blog, however I had to set the post date of ‘New Blog!’ to the 20th to keep things in order.&lt;/p&gt;
-
-&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
-
-&lt;p&gt;I am finding node packages a little intimidating at the moment.  I am also failing to see how I’m supposed to know that a package exists.  For example, if I didn’t learn of the existence of yargs through a video I watched, how would I know about it and how would I know it’s something I needed?&lt;/p&gt;
-
-&lt;p&gt;Time will tell, I presume!&lt;/p&gt;
-
-&lt;h3 id=&quot;links&quot;&gt;Link(s)&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.npmjs.com/package/yargs&quot;&gt;yargs&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/yargs/yargs/blob/HEAD/docs/api.md#commandcmd-desc-module&quot;&gt;yargs .command()&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="yargs" /><category term="node" /><summary type="html">Today’s Progress I have refined my notes app and I have learned some of the methods of ‘yargs’.</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="async" /><category term="call stack" /><category term="event loop" /><category term="json" /><summary type="html">Today’s Progress I have spent some time learning the basics of async, call stack and event loop.</summary></entry></feed>
