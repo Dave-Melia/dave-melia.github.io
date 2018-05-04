@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-03T06:21:56+01:00</updated><id>http://localhost:4000/</id><title type="html">Dave Melia</title><subtitle>The sound of the rain needs no translation.</subtitle><entry><title type="html">Day 13</title><link href="http://localhost:4000/day-013/" rel="alternate" type="text/html" title="Day 13" /><published>2018-05-03T00:00:00+01:00</published><updated>2018-05-03T00:00:00+01:00</updated><id>http://localhost:4000/day-013</id><content type="html" xml:base="http://localhost:4000/day-013/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-04T05:30:13+01:00</updated><id>http://localhost:4000/</id><title type="html">Dave Melia</title><subtitle>The sound of the rain needs no translation.</subtitle><entry><title type="html">Day 14</title><link href="http://localhost:4000/day-014/" rel="alternate" type="text/html" title="Day 14" /><published>2018-05-04T00:00:00+01:00</published><updated>2018-05-04T00:00:00+01:00</updated><id>http://localhost:4000/day-014</id><content type="html" xml:base="http://localhost:4000/day-014/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+&lt;p&gt;I delved deeper into &lt;a href=&quot;https://mochajs.org&quot;&gt;Mocha&lt;/a&gt;, and discovered the &lt;a href=&quot;https://www.npmjs.com/package/expect&quot;&gt;Expect&lt;/a&gt; package for assertions.  I also discovered &lt;a href=&quot;https://github.com/visionmedia/supertest&quot;&gt;SuperTest&lt;/a&gt; for testing &lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt; applications.&lt;/p&gt;
+
+&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;Not a great deal in terms of developing anything this evening, but I have enjoyed learning about Mocha and assertions for testing code.  I learned about testing code, testing async code, and testing &lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt; applications.&lt;/p&gt;
+
+&lt;p&gt;I have some more to learn before moving back to developing an application.&lt;/p&gt;
+
+&lt;p&gt;Hopefully tomorrow night I should be done with the &lt;a href=&quot;https://mochajs.org&quot;&gt;Mocha&lt;/a&gt; course so I can move on.&lt;/p&gt;
+
+&lt;h2 id=&quot;useful-links&quot;&gt;Useful Links&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mochajs.org&quot;&gt;Mocha&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.npmjs.com/package/expect&quot;&gt;Expect&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/visionmedia/supertest&quot;&gt;SuperTest&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="express" /><category term="mocha" /><category term="testing" /><category term="supertest" /><summary type="html">Today’s Progress I delved deeper into Mocha, and discovered the Expect package for assertions. I also discovered SuperTest for testing Express applications.</summary></entry><entry><title type="html">Day 13</title><link href="http://localhost:4000/day-013/" rel="alternate" type="text/html" title="Day 13" /><published>2018-05-03T00:00:00+01:00</published><updated>2018-05-03T00:00:00+01:00</updated><id>http://localhost:4000/day-013</id><content type="html" xml:base="http://localhost:4000/day-013/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
 &lt;p&gt;I have learned more about &lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;, and I attempted the #Javascript30 challenge but I didn’t take to it.  I have also brushed upon testing using &lt;a href=&quot;https://mochajs.org&quot;&gt;Mocha&lt;/a&gt;, but I will look more into it tomorrow.&lt;/p&gt;
 
 &lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
@@ -144,27 +161,4 @@ I have also set in place some callback error handling.&lt;/p&gt;
 &lt;p&gt;Also had to mess around with Jekyll to change some stuff with the blog.  Not had a great deal of time but I managed about 40 minutes.&lt;/p&gt;
 
 &lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
-&lt;p&gt;The baby has colic so I wasn’t able to do much this evening.  Luckily, I code during the wee small hours of the morning and I’ve got this evening to catch up.&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><summary type="html">Today’s Progress I did a bit on HTTP requests, error, response, body etc.</summary></entry><entry><title type="html">Day 4</title><link href="http://localhost:4000/day-004/" rel="alternate" type="text/html" title="Day 4" /><published>2018-04-24T00:00:00+01:00</published><updated>2018-04-24T00:00:00+01:00</updated><id>http://localhost:4000/day-004</id><content type="html" xml:base="http://localhost:4000/day-004/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
-&lt;p&gt;I have spent some time learning the basics of async, call stack and event loop.&lt;/p&gt;
-
-&lt;p&gt;I have started to make a weather app using the Google Maps API, and I have learned how to beautify JSON callbacks (see below).&lt;/p&gt;
-
-&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
-
-&lt;p&gt;async and call stack are quite intimidating at the moment and whilst it does make sense, I don’t think I understand it enough.  I’m really excited to progress with the weather app and use the Google Maps API.&lt;/p&gt;
-
-&lt;h2 id=&quot;code-snippets&quot;&gt;Code Snippets&lt;/h2&gt;
-
-&lt;h4 id=&quot;pretty-print-json-callbacks&quot;&gt;Pretty print JSON callbacks&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This works by adding spaces (2 in this case) to the string&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https://maps.googleapis.com/maps/api/geocode/json?address=1301%20lombard%20street%20philadelphia'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stringify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;undefined&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="async" /><category term="call stack" /><category term="event loop" /><category term="json" /><summary type="html">Today’s Progress I have spent some time learning the basics of async, call stack and event loop.</summary></entry></feed>
+&lt;p&gt;The baby has colic so I wasn’t able to do much this evening.  Luckily, I code during the wee small hours of the morning and I’ve got this evening to catch up.&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><summary type="html">Today’s Progress I did a bit on HTTP requests, error, response, body etc.</summary></entry></feed>
