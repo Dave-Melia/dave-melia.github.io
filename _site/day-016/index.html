@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Day 16 – Dave Melia – The sound of the rain needs no translation.</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Today’s Progress
+I managed to lose count of my hours this evening, but I’ve done at least 3 hours.
+I did some more MongoDB stuff and I’ve learned about connecting to the server, inserting data and removing data.
+I learned about the ‘deleteOne’, ‘deleteMany’, ‘findOneAndDelete’, ‘insertOne’, and finding data based on certain criteria.
+
+" />
+    <meta property="og:description" content="Today’s Progress
+I managed to lose count of my hours this evening, but I’ve done at least 3 hours.
+I did some more MongoDB stuff and I’ve learned about connecting to the server, inserting data and removing data.
+I learned about the ‘deleteOne’, ‘deleteMany’, ‘findOneAndDelete’, ‘insertOne’, and finding data based on certain criteria.
+
+" />
+    
+    <meta name="author" content="Dave Melia" />
+
+    
+    <meta property="og:title" content="Day 16" />
+    <meta property="twitter:title" content="Day 16" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Dave Melia - The sound of the rain needs no translation." href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="https://avatars2.githubusercontent.com/u/4519095?s=460&v=4" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Dave Melia</a></h1>
+            <p class="site-description">The sound of the rain needs no translation.</p>
+          </div>
+
+          <nav>
+            <a href="/">Blog</a>
+            <!--<a href="/about">About</a>-->
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>Day 16</h1>
+
+  <div class="entry">
+    <h2 id="todays-progress">Today’s Progress</h2>
+<p>I managed to lose count of my hours this evening, but I’ve done at least 3 hours.
+I did some more <a href="https://www.mongodb.com/">MongoDB</a> stuff and I’ve learned about connecting to the server, inserting data and removing data.
+I learned about the ‘deleteOne’, ‘deleteMany’, ‘findOneAndDelete’, ‘insertOne’, and finding data based on certain criteria.</p>
+
+<h2 id="thoughts">Thoughts</h2>
+<p>I’ve had a lot of fun with <a href="https://www.mongodb.com/">MongoDB</a>, and I think I’m understanding it.  Obviously there’s a long way to go, but I’m happy with what I’ve learned thus far.</p>
+
+<p>I did come away from the course and I attempted to connect and insert data from memory, but I needed to refer back for a few things.</p>
+
+<p>A problem I have noticed, though, is that the course is using <a href="https://www.mongodb.com/">MongoDB</a> version 2.2.5, but when I referred to the docs for help, I noticed that version 3 no longer returns a database object as it did in version 2, but rather a client object.</p>
+
+<p>The following is what I had learned as per v2:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nx">MongoClient</span><span class="p">.</span><span class="nx">connect</span><span class="p">(</span><span class="s1">'mongodb://localhost:27017/mytestingdb'</span><span class="p">,</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">db</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="c1">// Database returned</span>
+  <span class="p">});</span>
+</code></pre></div></div>
+
+<p>And here is the client object as per v3:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nx">MongoClient</span><span class="p">.</span><span class="nx">connect</span><span class="p">(</span><span class="s1">'mongodb://localhost:27017'</span><span class="p">,</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">client</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="c1">// Client returned</span>
+    <span class="kd">var</span> <span class="nx">db</span> <span class="o">=</span> <span class="nx">client</span><span class="p">.</span><span class="nx">db</span><span class="p">(</span><span class="s1">'mytestingdb'</span><span class="p">);</span>
+  <span class="p">});</span>
+</code></pre></div></div>
+
+<p>Also, the close() method has been moved to the client:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nx">MongoClient</span><span class="p">.</span><span class="nx">connect</span><span class="p">(</span><span class="s1">'mongodb://localhost'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">client</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="k">throw</span> <span class="nx">err</span><span class="p">;</span>
+
+    <span class="kd">var</span> <span class="nx">db</span> <span class="o">=</span> <span class="nx">client</span><span class="p">.</span><span class="nx">db</span><span class="p">(</span><span class="s1">'mytestingdb'</span><span class="p">);</span>
+
+    <span class="nx">db</span><span class="p">.</span><span class="nx">collection</span><span class="p">(</span><span class="s1">'customers'</span><span class="p">).</span><span class="nx">findOne</span><span class="p">({},</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">findErr</span><span class="p">,</span> <span class="nx">result</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">if</span> <span class="p">(</span><span class="nx">findErr</span><span class="p">)</span> <span class="k">throw</span> <span class="nx">findErr</span><span class="p">;</span>
+      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">result</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span>
+      <span class="nx">client</span><span class="p">.</span><span class="nx">close</span><span class="p">();</span>
+    <span class="p">});</span>
+  <span class="p">});</span>
+</code></pre></div></div>
+
+<p>This isn’t a major ball-ache, but once the course is over, I think I’ll have an adjustment period.</p>
+
+<p>Furthermore, I decided to take a break from <a href="https://www.mongodb.com/">MongoDB</a> and returned to playing with <a href="https://www.npmjs.com/package/axios">Axios</a> to finish up the evening.
+I attempted to play with the <a href="https://dev.twitch.tv/docs/api/">Twitch API</a> again, and have discovered that the data I needed was within response.data.data,
+the second .data is an array which is what stifled me the other day when I couldn’t access the data.</p>
+
+<h2 id="useful-links">Useful Links</h2>
+<p><a href="https://www.mongodb.com/">MongoDB</a></p>
+
+<p><a href="https://robomongo.org/">RoboMongo</a></p>
+
+<p><a href="https://stackoverflow.com/questions/47662220/db-collection-is-not-a-function-when-using-mongoclient-v3-0/47662979">MongoDB client object reference</a></p>
+
+  </div>
+
+  <div class="date">
+    Written on May  6, 2018
+  </div>
+
+  
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+
+
+
+<a href="https://github.com/dave-melia"><i class="svg-icon github"></i></a>
+
+
+
+
+<a href="https://www.twitter.com/Barnards__Loop"><i class="svg-icon twitter"></i></a>
+
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-118124017-1', 'auto');
+		ga('send', 'pageview', {
+		  'page': '/day-016/',
+		  'title': 'Day 16'
+		});
+	</script>
+	<!-- End Google Analytics -->
+
+
+  </body>
+</html>

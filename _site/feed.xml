@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-04T05:30:13+01:00</updated><id>http://localhost:4000/</id><title type="html">Dave Melia</title><subtitle>The sound of the rain needs no translation.</subtitle><entry><title type="html">Day 14</title><link href="http://localhost:4000/day-014/" rel="alternate" type="text/html" title="Day 14" /><published>2018-05-04T00:00:00+01:00</published><updated>2018-05-04T00:00:00+01:00</updated><id>http://localhost:4000/day-014</id><content type="html" xml:base="http://localhost:4000/day-014/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-06T07:03:15+01:00</updated><id>http://localhost:4000/</id><title type="html">Dave Melia</title><subtitle>The sound of the rain needs no translation.</subtitle><entry><title type="html">Day 16</title><link href="http://localhost:4000/day-016/" rel="alternate" type="text/html" title="Day 16" /><published>2018-05-06T00:00:00+01:00</published><updated>2018-05-06T00:00:00+01:00</updated><id>http://localhost:4000/day-016</id><content type="html" xml:base="http://localhost:4000/day-016/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+&lt;p&gt;I managed to lose count of my hours this evening, but I’ve done at least 3 hours.
+I did some more &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; stuff and I’ve learned about connecting to the server, inserting data and removing data.
+I learned about the ‘deleteOne’, ‘deleteMany’, ‘findOneAndDelete’, ‘insertOne’, and finding data based on certain criteria.&lt;/p&gt;
+
+&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;I’ve had a lot of fun with &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt;, and I think I’m understanding it.  Obviously there’s a long way to go, but I’m happy with what I’ve learned thus far.&lt;/p&gt;
+
+&lt;p&gt;I did come away from the course and I attempted to connect and insert data from memory, but I needed to refer back for a few things.&lt;/p&gt;
+
+&lt;p&gt;A problem I have noticed, though, is that the course is using &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; version 2.2.5, but when I referred to the docs for help, I noticed that version 3 no longer returns a database object as it did in version 2, but rather a client object.&lt;/p&gt;
+
+&lt;p&gt;The following is what I had learned as per v2:&lt;/p&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;nx&quot;&gt;MongoClient&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;connect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'mongodb://localhost:27017/mytestingdb'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Database returned&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And here is the client object as per v3:&lt;/p&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;nx&quot;&gt;MongoClient&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;connect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'mongodb://localhost:27017'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Client returned&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;db&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'mytestingdb'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Also, the close() method has been moved to the client:&lt;/p&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;nx&quot;&gt;MongoClient&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;connect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'mongodb://localhost'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;db&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'mytestingdb'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;nx&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;collection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'customers'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;findOne&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({},&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;findErr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;findErr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;findErr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;close&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This isn’t a major ball-ache, but once the course is over, I think I’ll have an adjustment period.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, I decided to take a break from &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; and returned to playing with &lt;a href=&quot;https://www.npmjs.com/package/axios&quot;&gt;Axios&lt;/a&gt; to finish up the evening.
+I attempted to play with the &lt;a href=&quot;https://dev.twitch.tv/docs/api/&quot;&gt;Twitch API&lt;/a&gt; again, and have discovered that the data I needed was within response.data.data,
+the second .data is an array which is what stifled me the other day when I couldn’t access the data.&lt;/p&gt;
+
+&lt;h2 id=&quot;useful-links&quot;&gt;Useful Links&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://robomongo.org/&quot;&gt;RoboMongo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/47662220/db-collection-is-not-a-function-when-using-mongoclient-v3-0/47662979&quot;&gt;MongoDB client object reference&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="mongo" /><category term="mongodb" /><category term="robomongo" /><summary type="html">Today’s Progress I managed to lose count of my hours this evening, but I’ve done at least 3 hours. I did some more MongoDB stuff and I’ve learned about connecting to the server, inserting data and removing data. I learned about the ‘deleteOne’, ‘deleteMany’, ‘findOneAndDelete’, ‘insertOne’, and finding data based on certain criteria.</summary></entry><entry><title type="html">Day 15</title><link href="http://localhost:4000/day-015/" rel="alternate" type="text/html" title="Day 15" /><published>2018-05-05T00:00:00+01:00</published><updated>2018-05-05T00:00:00+01:00</updated><id>http://localhost:4000/day-015</id><content type="html" xml:base="http://localhost:4000/day-015/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+&lt;p&gt;Today I finished learning about testing code using &lt;a href=&quot;https://mochajs.org&quot;&gt;Mocha&lt;/a&gt;.  I learned about spies (though, I’ll be honest I have no idea what they’re for), and I learned about &lt;a href=&quot;https://github.com/jhnns/rewire&quot;&gt;Rewire&lt;/a&gt; (again, no understanding at all).  I have also dipped my toes into learning &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;So, I have finished the testing course, and I am excited to start using it in real-world apps, I am a little confused when it comes to spies and &lt;a href=&quot;https://github.com/jhnns/rewire&quot;&gt;Rewire&lt;/a&gt;.  I’m sure time will help with this.&lt;/p&gt;
+
+&lt;p&gt;I also began to learn about &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt;, which I must admit, I have been really excited about.&lt;/p&gt;
+
+&lt;p&gt;I have used SQL over the years, and I have always wanted to learn more about &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt;, so with a bit of luck, I’ll be able to adjust pretty easily.  I suppose the hardest part is getting used to collections, documents, and fields as I’m finding them a little confusing.&lt;/p&gt;
+
+&lt;p&gt;I discovered a tool called &lt;a href=&quot;https://robomongo.org/&quot;&gt;RoboMongo&lt;/a&gt; which provides a GUI for your database; it will help me visualise what is happening behind the scenes whilst I get used to using a NoSQL database.&lt;/p&gt;
+
+&lt;p&gt;Next up, is making a ‘Todo’ API using &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt;.  It’s currently 06:15 and I have been up with the baby all night so the API will have to wait until tomorrow!&lt;/p&gt;
+
+&lt;h2 id=&quot;useful-links&quot;&gt;Useful Links&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://mochajs.org&quot;&gt;Mocha&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jhnns/rewire&quot;&gt;Rewire&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://robomongo.org/&quot;&gt;RoboMongo&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="mocha" /><category term="testing" /><category term="rewire" /><category term="mongo" /><category term="robomongo" /><summary type="html">Today’s Progress Today I finished learning about testing code using Mocha. I learned about spies (though, I’ll be honest I have no idea what they’re for), and I learned about Rewire (again, no understanding at all). I have also dipped my toes into learning MongoDB.</summary></entry><entry><title type="html">Day 14</title><link href="http://localhost:4000/day-014/" rel="alternate" type="text/html" title="Day 14" /><published>2018-05-04T00:00:00+01:00</published><updated>2018-05-04T00:00:00+01:00</updated><id>http://localhost:4000/day-014</id><content type="html" xml:base="http://localhost:4000/day-014/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
 &lt;p&gt;I delved deeper into &lt;a href=&quot;https://mochajs.org&quot;&gt;Mocha&lt;/a&gt;, and discovered the &lt;a href=&quot;https://www.npmjs.com/package/expect&quot;&gt;Expect&lt;/a&gt; package for assertions.  I also discovered &lt;a href=&quot;https://github.com/visionmedia/supertest&quot;&gt;SuperTest&lt;/a&gt; for testing &lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt; applications.&lt;/p&gt;
 
 &lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
@@ -144,21 +215,4 @@ How does it differentiate between the two?&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt&quot;&gt;charAt()&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr&quot;&gt;substr()&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="freecodecamp" /><category term="algorithms" /><category term="link" /><category term="links" /><category term="title case" /><category term="snippets" /><summary type="html">Today’s Progress I have done some algorithm scripting on FreeCodeCamp.</summary></entry><entry><title type="html">Day 6</title><link href="http://localhost:4000/day-006/" rel="alternate" type="text/html" title="Day 6" /><published>2018-04-26T00:00:00+01:00</published><updated>2018-04-26T00:00:00+01:00</updated><id>http://localhost:4000/day-006</id><content type="html" xml:base="http://localhost:4000/day-006/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
-&lt;p&gt;Working more on HTTP requests whilst building the weather app.&lt;/p&gt;
-
-&lt;p&gt;I have also learned about encodeURIComponent() as well as decodeURIComponent() which enable me to encode user input (in this case, the address), and replace spaces with %20.  The reverse happens for decodeURIComponent()!  See the links below.
-I have also set in place some callback error handling.&lt;/p&gt;
-
-&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
-&lt;p&gt;GitHub wasn’t logging my contributions for the past couple of days and I’ve only just realised it’s because the author email address on the commits were set to dave@macbook.local rather than my actual email address.  It’s a little disappointing because I was going to use the commits as part of my commitment to the challenge, but at least I’ve realised it early on in the challenge rather than towards the end!&lt;/p&gt;
-
-&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent&quot;&gt;encodeURIComponent&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="api" /><category term="github" /><category term="encodeuricomponent" /><category term="decodeuricomponent" /><category term="link" /><category term="links" /><summary type="html">Today’s Progress Working more on HTTP requests whilst building the weather app.</summary></entry><entry><title type="html">Day 5</title><link href="http://localhost:4000/day-005/" rel="alternate" type="text/html" title="Day 5" /><published>2018-04-25T00:00:00+01:00</published><updated>2018-04-25T00:00:00+01:00</updated><id>http://localhost:4000/day-005</id><content type="html" xml:base="http://localhost:4000/day-005/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
-&lt;p&gt;I did a bit on HTTP requests, error, response, body etc.&lt;/p&gt;
-
-&lt;p&gt;Also had to mess around with Jekyll to change some stuff with the blog.  Not had a great deal of time but I managed about 40 minutes.&lt;/p&gt;
-
-&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
-&lt;p&gt;The baby has colic so I wasn’t able to do much this evening.  Luckily, I code during the wee small hours of the morning and I’ve got this evening to catch up.&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><summary type="html">Today’s Progress I did a bit on HTTP requests, error, response, body etc.</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr&quot;&gt;substr()&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="freecodecamp" /><category term="algorithms" /><category term="link" /><category term="links" /><category term="title case" /><category term="snippets" /><summary type="html">Today’s Progress I have done some algorithm scripting on FreeCodeCamp.</summary></entry></feed>
