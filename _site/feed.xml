@@ -1,4 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-06T07:03:15+01:00</updated><id>http://localhost:4000/</id><title type="html">Dave Melia</title><subtitle>The sound of the rain needs no translation.</subtitle><entry><title type="html">Day 16</title><link href="http://localhost:4000/day-016/" rel="alternate" type="text/html" title="Day 16" /><published>2018-05-06T00:00:00+01:00</published><updated>2018-05-06T00:00:00+01:00</updated><id>http://localhost:4000/day-016</id><content type="html" xml:base="http://localhost:4000/day-016/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-14T23:27:57+01:00</updated><id>http://localhost:4000/</id><title type="html">Dave Melia</title><subtitle>The sound of the rain needs no translation.</subtitle><entry><title type="html">Day 19</title><link href="http://localhost:4000/day-020/" rel="alternate" type="text/html" title="Day 19" /><published>2018-05-14T00:00:00+01:00</published><updated>2018-05-14T00:00:00+01:00</updated><id>http://localhost:4000/day-020</id><content type="html" xml:base="http://localhost:4000/day-020/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+&lt;p&gt;I restarted my &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; lessons back to when I started learning about &lt;a href=&quot;http://mongoosejs.com/&quot;&gt;Mongoose&lt;/a&gt;, since I had forgotten what I had previously learned and couldn’t remember where I was up to.&lt;/p&gt;
+
+&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;I have have man-flu with a crippling headache and I just could not bring myself to code.  I tried on several occasions to load up the &lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt; and I immediately lost motivation.&lt;/p&gt;
+
+&lt;p&gt;So, today I am carrying on from Day 20.  I did toy with the idea of starting again from day 1, but I think if I stop for a matter of days again, I will restart.  I’m also pretty sad about losing my streak, especially considering that my day coincided with the day of the month (Day 1 was on the 1st, Day 2 was on the 2nd, etc).&lt;/p&gt;
+
+&lt;p&gt;I started back at the start of &lt;a href=&quot;http://mongoosejs.com/&quot;&gt;Mongoose&lt;/a&gt; because I forgot where I was up to and couldn’t just jump right in.  See Day 19 for specifically what I have done.&lt;/p&gt;
+
+&lt;p&gt;I wish I knew Ruby so I could write a plugin for &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; to automagically put in these links on keywords because it’s a manual process and I already regret starting! :D&lt;/p&gt;
+
+&lt;h2 id=&quot;useful-links&quot;&gt;Useful Links&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://mongoosejs.com/&quot;&gt;Mongoose&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="mongo" /><category term="mongodb" /><category term="mongoose" /><category term="api" /><summary type="html">Today’s Progress I restarted my MongoDB lessons back to when I started learning about Mongoose, since I had forgotten what I had previously learned and couldn’t remember where I was up to.</summary></entry><entry><title type="html">Day 19</title><link href="http://localhost:4000/day-019/" rel="alternate" type="text/html" title="Day 19" /><published>2018-05-09T00:00:00+01:00</published><updated>2018-05-09T00:00:00+01:00</updated><id>http://localhost:4000/day-019</id><content type="html" xml:base="http://localhost:4000/day-019/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+&lt;p&gt;More &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; lessons.  I’ve refactored the &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; code with &lt;a href=&quot;http://mongoosejs.com/&quot;&gt;Mongoose&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;Not a lot to show for today, but I did learn more about &lt;a href=&quot;http://mongoosejs.com/&quot;&gt;Mongoose&lt;/a&gt;, and refactored my previous code using &lt;a href=&quot;http://mongoosejs.com/&quot;&gt;Mongoose&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’ve added my first POST request to the API, which is now wired up to the database, as opposed to console.log’ing the body to the screen.&lt;/p&gt;
+
+&lt;p&gt;More &lt;a href=&quot;http://mongoosejs.com/&quot;&gt;Mongoose&lt;/a&gt; tomorrow, which I’m looking forward to.&lt;/p&gt;
+
+&lt;p&gt;My only concern is that I’m not spending enough time going over what I have learned, I’m forgetting stuff that I learned 2 days ago already!&lt;/p&gt;
+
+&lt;p&gt;I’m also worried that if I spend some time going over a design course, I’ll start forgetting the &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node&lt;/a&gt;, &lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt; and &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; stuff.&lt;/p&gt;
+
+&lt;h2 id=&quot;useful-links&quot;&gt;Useful Links&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://mongoosejs.com/&quot;&gt;Mongoose&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://handlebarsjs.com/&quot;&gt;Handlebars&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="mongo" /><category term="mongodb" /><category term="robomongo" /><category term="twitch" /><category term="api" /><summary type="html">Today’s Progress More MongoDB lessons. I’ve refactored the MongoDB code with Mongoose.</summary></entry><entry><title type="html">Day 18</title><link href="http://localhost:4000/day-018/" rel="alternate" type="text/html" title="Day 18" /><published>2018-05-08T00:00:00+01:00</published><updated>2018-05-08T00:00:00+01:00</updated><id>http://localhost:4000/day-018</id><content type="html" xml:base="http://localhost:4000/day-018/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+&lt;p&gt;Quite a productive day.  I built a &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node&lt;/a&gt; app using &lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt; and &lt;a href=&quot;https://handlebarsjs.com/&quot;&gt;Handlebars&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;I wanted to see how much information I retained from the course I’ve been doing over the past couple of weeks, so I set out to create a little app using &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node&lt;/a&gt;, &lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;, &lt;a href=&quot;https://handlebarsjs.com/&quot;&gt;Handlebars&lt;/a&gt; and the Twitch API.&lt;/p&gt;
+
+&lt;p&gt;Essentially, I just wanted to display the top 20 games currently being streamed on &lt;a href=&quot;https://www.twitch.tv/&quot;&gt;Twitch&lt;/a&gt;, along with their box art and viewer count.&lt;/p&gt;
+
+&lt;p&gt;I managed to do it, but I struggled getting the API passed in to the view, but with thanks to &lt;a href=&quot;https://twitter.com/nikkilr88&quot;&gt;@nikkilr88&lt;/a&gt; I got it done!  So a big thank you to her!&lt;/p&gt;
+
+&lt;p&gt;I finished off the evening with some &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt;, and &lt;a href=&quot;http://mongoosejs.com/&quot;&gt;Mongoose&lt;/a&gt; was introduced; I’m looking forward to continuing on with that tomorrow!.&lt;/p&gt;
+
+&lt;h2 id=&quot;links-to-my-work&quot;&gt;Links to my work&lt;/h2&gt;
+&lt;p&gt;The app can be seen here: &lt;a href=&quot;https://ancient-bastion-69677.herokuapp.com/&quot;&gt;Twitch App&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m not very good at design so it’s a little bland.&lt;/p&gt;
+
+&lt;h2 id=&quot;useful-links&quot;&gt;Useful Links&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://mongoosejs.com/&quot;&gt;Mongoose&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://handlebarsjs.com/&quot;&gt;Handlebars&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="mongo" /><category term="mongodb" /><category term="robomongo" /><category term="twitch" /><category term="api" /><summary type="html">Today’s Progress Quite a productive day. I built a Node app using Express and Handlebars.</summary></entry><entry><title type="html">Day 17</title><link href="http://localhost:4000/day-017/" rel="alternate" type="text/html" title="Day 17" /><published>2018-05-07T00:00:00+01:00</published><updated>2018-05-07T00:00:00+01:00</updated><id>http://localhost:4000/day-017</id><content type="html" xml:base="http://localhost:4000/day-017/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+&lt;p&gt;None!  I took my much needed day off&lt;/p&gt;
+
+&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;I was feeling a little stressed because of the day I’d had, and all I wanted to do was to sit down and binge on Queer Eye on Netflix.  I felt guilty, but I was entitled to a day off!&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><summary type="html">Today’s Progress None! I took my much needed day off</summary></entry><entry><title type="html">Day 16</title><link href="http://localhost:4000/day-016/" rel="alternate" type="text/html" title="Day 16" /><published>2018-05-06T00:00:00+01:00</published><updated>2018-05-06T00:00:00+01:00</updated><id>http://localhost:4000/day-016</id><content type="html" xml:base="http://localhost:4000/day-016/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
 &lt;p&gt;I managed to lose count of my hours this evening, but I’ve done at least 3 hours.
 I did some more &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; stuff and I’ve learned about connecting to the server, inserting data and removing data.
 I learned about the ‘deleteOne’, ‘deleteMany’, ‘findOneAndDelete’, ‘insertOne’, and finding data based on certain criteria.&lt;/p&gt;
@@ -125,94 +197,4 @@ the second .data is an array which is what stifled me the other day when I could
 &lt;p&gt;I am enjoying learning about &lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;, however I am worried about remembering what I have learned, whilst also worrying about forgetting the stuff I’ve learned over the past 11 days.  Not feeling too bright this evening so I’m gonna keep the blog short for today &amp;lt;3&lt;/p&gt;
 
 &lt;h2 id=&quot;useful-links&quot;&gt;Useful Links&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="promises" /><category term="express" /><summary type="html">Today’s Progress I progressed further with the Express tutorial, plus Handlebars was introduced.</summary></entry><entry><title type="html">Day 10</title><link href="http://localhost:4000/day-010/" rel="alternate" type="text/html" title="Day 10" /><published>2018-04-30T00:00:00+01:00</published><updated>2018-04-30T00:00:00+01:00</updated><id>http://localhost:4000/day-010</id><content type="html" xml:base="http://localhost:4000/day-010/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
-&lt;p&gt;I have learned more about promises and I have rewritten the weather app using promises instead of callbacks.  I also began learning about Express and have set up a very basic web server with a few routes.&lt;/p&gt;
-
-&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
-&lt;p&gt;At first I was a little confused in regards to promises, and to some extent I still am.  After going over a tutorial which explains them in depth, and also how to chain them together, I understand them a little more.  I got to rewrite the weather app using &lt;a href=&quot;https://www.npmjs.com/package/axios&quot;&gt;Axios&lt;/a&gt; instead of &lt;a href=&quot;https://www.npmjs.com/package/request&quot;&gt;Request&lt;/a&gt; since &lt;a href=&quot;https://www.npmjs.com/package/axios&quot;&gt;Axios&lt;/a&gt; supports promises, and it took less code to write than the original app did.&lt;/p&gt;
-
-&lt;p&gt;As for Express, I have used it before but I didn’t understand it from the ground up and I never understood the difference between Node and Express.  Having spent some time with Node, and now moving on to Express, I feel like I understand them both as separate entities.&lt;/p&gt;
-
-&lt;h2 id=&quot;useful-links&quot;&gt;Useful Links&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.npmjs.com/package/axios&quot;&gt;Axios&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.npmjs.com/package/request&quot;&gt;Request&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="promises" /><category term="express" /><summary type="html">Today’s Progress I have learned more about promises and I have rewritten the weather app using promises instead of callbacks. I also began learning about Express and have set up a very basic web server with a few routes.</summary></entry><entry><title type="html">Day 9</title><link href="http://localhost:4000/day-009/" rel="alternate" type="text/html" title="Day 9" /><published>2018-04-29T00:00:00+01:00</published><updated>2018-04-29T00:00:00+01:00</updated><id>http://localhost:4000/day-009</id><content type="html" xml:base="http://localhost:4000/day-009/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
-&lt;p&gt;I took a day off from learning to focus on playing with the Twitch API&lt;/p&gt;
-
-&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
-&lt;p&gt;I didn’t do as much as I’d like, though I did manage to get my hour in.  I had a rough night with the baby; he currently cries for hours (~3 hours) for no apparent reason and he will only stop when he is being held.&lt;/p&gt;
-
-&lt;p&gt;As for the Twitch API… well, I didn’t do an awful lot with it, I merely wanted to recreate my weather app, but rather than using the Google API to fetch coordinates, and the Dark Sky API to fetch the weather, I wanted to fetch Twitch data.  At present I’m not overly fussed on the new Helix Twitch API as there is quite a few features missing that were in the previous Kraken version.  I did manage to get the app to list the top 20 games, and it was my intention to display how many viewers each game had at the time of the request.  Needless to say, I retrieved the list of games, and I formatted the results so that it would quite literally display the title of the game, rather than the JSON string containing the cover art etc.&lt;/p&gt;
-
-&lt;h2 id=&quot;useful-links&quot;&gt;Useful Links&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;Twitch API&quot;&gt;https://dev.twitch.tv/&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><summary type="html">Today’s Progress I took a day off from learning to focus on playing with the Twitch API</summary></entry><entry><title type="html">Day 8</title><link href="http://localhost:4000/day-008/" rel="alternate" type="text/html" title="Day 8" /><published>2018-04-28T00:00:00+01:00</published><updated>2018-04-28T00:00:00+01:00</updated><id>http://localhost:4000/day-008</id><content type="html" xml:base="http://localhost:4000/day-008/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
-&lt;p&gt;I have progressed further with the Node.JS weather app.  I even rebuilt it from scratch to reinforce what I had learned.&lt;/p&gt;
-
-&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
-&lt;p&gt;I was beginning to feel overwhelmed with what I had learned regarding Node.JS, and I felt like I wasn’t getting it and it wasn’t very enjoyable.  As per &lt;a href=&quot;https://twitter.com/RonJonBraun/status/989922649789861889&quot;&gt;@RonJonBraun’s tweet&lt;/a&gt; I decided to rewrite the weather app from scratch, without referring back to the code and without watching the tutorial for help.&lt;/p&gt;
-
-&lt;p&gt;At first, I did feel like I was lost, and I’ll admit I did cheat by peeking at my previous code to figure out how to use the node &lt;a href=&quot;https://www.npmjs.com/package/request&quot;&gt;request&lt;/a&gt; package or how to set up the methods on the &lt;a href=&quot;https://www.npmjs.com/package/yargs&quot;&gt;yargs&lt;/a&gt; package.&lt;/p&gt;
-
-&lt;p&gt;I got the flow of things but when I got to calling geocodeAddress(), I recall not understanding how to use the callback() function.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;geocode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;geocodeAddress&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;address&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;errorMessage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;errorMessage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;errorMessage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;address&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Where the heck does errorMessage and results come from?
-How does it differentiate between the two?&lt;/p&gt;
-
-&lt;p&gt;The answer, as I discovered, was this:&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;callback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Unable to connect to Google Servers'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;status&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ZERO_RESULTS'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;callback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Unable to find that address'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;status&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'OK'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;callback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;undefined&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;address&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;formatted_address&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;latitude&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;geometry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;longitude&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;geometry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lng&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Thinking of the callback() arguments in the previous snippet, the first argument was ‘errorMessage’.  In this case, ‘errorMessage’ would be ‘Unable to connect to Google Servers’ or ‘Unable to find that address’, completely omitting the second argument.&lt;/p&gt;
-
-&lt;p&gt;‘results’ would be, callback(‘undefined’, Object), declaring ‘errorMessage’ as undefined and passing in the address, longitude, and latitude into the second argument as an object.&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="weatherapp" /><category term="callback" /><category term="snippets" /><summary type="html">Today’s Progress I have progressed further with the Node.JS weather app. I even rebuilt it from scratch to reinforce what I had learned.</summary></entry><entry><title type="html">Day 7</title><link href="http://localhost:4000/day-007/" rel="alternate" type="text/html" title="Day 7" /><published>2018-04-27T00:00:00+01:00</published><updated>2018-04-27T00:00:00+01:00</updated><id>http://localhost:4000/day-007</id><content type="html" xml:base="http://localhost:4000/day-007/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
-&lt;p&gt;I have done some algorithm scripting on FreeCodeCamp.&lt;/p&gt;
-
-&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
-&lt;p&gt;Algorithm scripting isn’t very enjoyable, but I’d imagine it’s like having to eat your broccoli before you eat your dessert or having to limber up before going for a run… You want to get to the good stuff, but you need to do the boring stuff first.&lt;/p&gt;
-
-&lt;p&gt;After a couple of hours attempting several algorithms, I realise I’m awful at solving them without having to Google for help (partly solutions).  I wonder if it’ll ‘click’ or if my brain just doesn’t function that way.&lt;/p&gt;
-
-&lt;p&gt;I also need to spend time going over some regex as I have been avoiding it for years; even when I worked as a Linux Sysadmin I couldn’t conjure up the motivation to learn it.&lt;/p&gt;
-
-&lt;h2 id=&quot;code-snippets&quot;&gt;Code Snippets&lt;/h2&gt;
-
-&lt;h4 id=&quot;title-case-a-string-of-words&quot;&gt;Title Case A String of Words&lt;/h4&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;toTitleCase&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\w\S&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;*/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;charAt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toUpperCase&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;substr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toLowerCase&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nx&quot;&gt;toTitleCase&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'heLLO, DAVE'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// returns: Hello, Dave&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;helpful-links&quot;&gt;Helpful Links&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.w3schools.com/jsref/jsref_obj_regexp.asp&quot;&gt;Regex tutorial on W3Schools&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt&quot;&gt;charAt()&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr&quot;&gt;substr()&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="freecodecamp" /><category term="algorithms" /><category term="link" /><category term="links" /><category term="title case" /><category term="snippets" /><summary type="html">Today’s Progress I have done some algorithm scripting on FreeCodeCamp.</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="promises" /><category term="express" /><summary type="html">Today’s Progress I progressed further with the Express tutorial, plus Handlebars was introduced.</summary></entry></feed>
