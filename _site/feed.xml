@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-14T23:27:57+01:00</updated><id>http://localhost:4000/</id><title type="html">Dave Melia</title><subtitle>The sound of the rain needs no translation.</subtitle><entry><title type="html">Day 19</title><link href="http://localhost:4000/day-020/" rel="alternate" type="text/html" title="Day 19" /><published>2018-05-14T00:00:00+01:00</published><updated>2018-05-14T00:00:00+01:00</updated><id>http://localhost:4000/day-020</id><content type="html" xml:base="http://localhost:4000/day-020/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-17T00:14:07+01:00</updated><id>http://localhost:4000/</id><title type="html">Dave Melia</title><subtitle>The sound of the rain needs no translation.</subtitle><entry><title type="html">Day 22</title><link href="http://localhost:4000/day-022/" rel="alternate" type="text/html" title="Day 22" /><published>2018-05-16T00:00:00+01:00</published><updated>2018-05-16T00:00:00+01:00</updated><id>http://localhost:4000/day-022</id><content type="html" xml:base="http://localhost:4000/day-022/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+&lt;p&gt;I continued on with my &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; course, and set up some GET requests, and test cases on the todo API.  The API has been uploaded to &lt;a href=&quot;https://heroku.com/&quot;&gt;Heroku&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;I’ve had a blast setting up my todo API GET requests, you can GET all todos, as well as a single todo, using the route ‘/todos/:id’.&lt;/p&gt;
+
+&lt;p&gt;The app has been deployed to &lt;a href=&quot;https://heroku.com/&quot;&gt;Heroku&lt;/a&gt;, and the &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; server has been set up through the &lt;a href=&quot;https://elements.heroku.com/addons/&quot;&gt;Heroku addon&lt;/a&gt; ‘&lt;a href=&quot;https://elements.heroku.com/addons/mongolab&quot;&gt;mLab MongoDB&lt;/a&gt;’.&lt;/p&gt;
+
+&lt;p&gt;Also, some test cases have been set up to ensure the correct data is being requested, and that a 404 will successfully show if using an invalid ObjectID or a todo wasn’t found in the database.&lt;/p&gt;
+
+&lt;h2 id=&quot;links-to-my-work&quot;&gt;Links to my work&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mysterious-retreat-21010.herokuapp.com/todos&quot;&gt;Todo API&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;useful-links&quot;&gt;Useful Links&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://heroku.com/&quot;&gt;Heroku&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://elements.heroku.com/addons/&quot;&gt;Heroku addons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://elements.heroku.com/addons/mongolab&quot;&gt;mLab MongoDB&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mongodb.github.io/node-mongodb-native/api-bson-generated/objectid.html&quot;&gt;ObjectID &amp;amp; .isValid() Method&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="mongo" /><category term="mongodb" /><category term="mongoose" /><category term="api" /><summary type="html">Today’s Progress I continued on with my MongoDB course, and set up some GET requests, and test cases on the todo API. The API has been uploaded to Heroku.</summary></entry><entry><title type="html">Day 21</title><link href="http://localhost:4000/day-021/" rel="alternate" type="text/html" title="Day 21" /><published>2018-05-15T00:00:00+01:00</published><updated>2018-05-15T00:00:00+01:00</updated><id>http://localhost:4000/day-021</id><content type="html" xml:base="http://localhost:4000/day-021/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+&lt;p&gt;I decided to create my own API using what I have learned. Currently I have the &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; schema set up, it saves the data, and console.log’s it to the screen.&lt;/p&gt;
+
+&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;As stated above, I created my own API of Alan Watt’s quotes.  I currently only have a POST method in place, but it’s working, and there’s some test cases set up to ensure it’s working correctly.&lt;/p&gt;
+
+&lt;p&gt;Tomorrow, I will work on the GET request, which should be as simple as using .find({})!&lt;/p&gt;
+
+&lt;p&gt;I also progressed with my &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; course so that I can figure out what to do next!&lt;/p&gt;
+
+&lt;p&gt;Lot of fun today; I can’t wait to get back to it tomorrow!&lt;/p&gt;
+
+&lt;h2 id=&quot;useful-links&quot;&gt;Useful Links&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="mongo" /><category term="mongodb" /><category term="mongoose" /><category term="api" /><summary type="html">Today’s Progress I decided to create my own API using what I have learned. Currently I have the MongoDB schema set up, it saves the data, and console.log’s it to the screen.</summary></entry><entry><title type="html">Day 20</title><link href="http://localhost:4000/day-020/" rel="alternate" type="text/html" title="Day 20" /><published>2018-05-14T00:00:00+01:00</published><updated>2018-05-14T00:00:00+01:00</updated><id>http://localhost:4000/day-020</id><content type="html" xml:base="http://localhost:4000/day-020/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
 &lt;p&gt;I restarted my &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; lessons back to when I started learning about &lt;a href=&quot;http://mongoosejs.com/&quot;&gt;Mongoose&lt;/a&gt;, since I had forgotten what I had previously learned and couldn’t remember where I was up to.&lt;/p&gt;
 
 &lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
@@ -171,30 +207,4 @@ the second .data is an array which is what stifled me the other day when I could
 &lt;h2 id=&quot;useful-links&quot;&gt;Useful Links&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://mochajs.org&quot;&gt;Mocha&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="express" /><category term="heroku" /><category term="github" /><category term="git" /><category term="mocha" /><category term="testing" /><summary type="html">Today’s Progress I have learned more about Express, and I attempted the #Javascript30 challenge but I didn’t take to it. I have also brushed upon testing using Mocha, but I will look more into it tomorrow.</summary></entry><entry><title type="html">Day 12</title><link href="http://localhost:4000/day-012/" rel="alternate" type="text/html" title="Day 12" /><published>2018-05-02T00:00:00+01:00</published><updated>2018-05-02T00:00:00+01:00</updated><id>http://localhost:4000/day-012</id><content type="html" xml:base="http://localhost:4000/day-012/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
-&lt;p&gt;Today I have learned about &lt;a href=&quot;https://expressjs.com/en/guide/using-middleware.html&quot;&gt;Express Middlewhere&lt;/a&gt;, uploaded an app to &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;, and deployed it to &lt;a href=&quot;https://heroku.com/&quot;&gt;Heroku&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
-&lt;p&gt;Well, as of today I am at the point where I usually give up.  My brain is fried, I am getting flustered and I’m feeling overwhelmed.&lt;/p&gt;
-
-&lt;p&gt;Following along with the course, it makes sense but when I attempt to make a dummy project to go over what I have learned, I am at a complete loss.&lt;/p&gt;
-
-&lt;p&gt;I feel like I can’t just focus on one technology at a time, because on top of Node/Express, I’ve also got to learn Node packages and their methods, git commands, Heroku commands, routing, Handlebars, error handling, environment variables and so on and so on…!&lt;/p&gt;
-
-&lt;p&gt;It’s very overwhelming because I can’t just focus on one thing until I master it, each thing requires the next thing.&lt;/p&gt;
-
-&lt;p&gt;However, I am doing the &lt;a href=&quot;http://100daysofcode.com/&quot;&gt;#100DaysofCode&lt;/a&gt; challenge and therefore I am going to suck it up, and power through!&lt;/p&gt;
-
-&lt;h2 id=&quot;useful-links&quot;&gt;Useful Links&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://heroku.com/&quot;&gt;Heroku&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="express" /><category term="heroku" /><category term="github" /><category term="git" /><summary type="html">Today’s Progress Today I have learned about Express Middlewhere, uploaded an app to GitHub, and deployed it to Heroku</summary></entry><entry><title type="html">Day 11</title><link href="http://localhost:4000/day-011/" rel="alternate" type="text/html" title="Day 11" /><published>2018-05-01T00:00:00+01:00</published><updated>2018-05-01T00:00:00+01:00</updated><id>http://localhost:4000/day-011</id><content type="html" xml:base="http://localhost:4000/day-011/">&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
-&lt;p&gt;I progressed further with the &lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt; tutorial, plus &lt;a href=&quot;https://handlebarsjs.com/&quot;&gt;Handlebars&lt;/a&gt; was introduced.&lt;/p&gt;
-
-&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
-&lt;p&gt;I am enjoying learning about &lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;, however I am worried about remembering what I have learned, whilst also worrying about forgetting the stuff I’ve learned over the past 11 days.  Not feeling too bright this evening so I’m gonna keep the blog short for today &amp;lt;3&lt;/p&gt;
-
-&lt;h2 id=&quot;useful-links&quot;&gt;Useful Links&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="promises" /><category term="express" /><summary type="html">Today’s Progress I progressed further with the Express tutorial, plus Handlebars was introduced.</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://mochajs.org&quot;&gt;Mocha&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="100daysofcode" /><category term="node" /><category term="javascript" /><category term="express" /><category term="heroku" /><category term="github" /><category term="git" /><category term="mocha" /><category term="testing" /><summary type="html">Today’s Progress I have learned more about Express, and I attempted the #Javascript30 challenge but I didn’t take to it. I have also brushed upon testing using Mocha, but I will look more into it tomorrow.</summary></entry></feed>
